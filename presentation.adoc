@@ -1,0 +1,14 @@
+= 90 градусов
+Марат Радченко <https://github.com/slonopotamus[@slonopotamus]>
+v1.0, 2025-01-31
+:source-highlighter: highlightjs
+:revealjs_hash: true
+:revealjs_theme: league
+:revealjsdir: https://cdn.jsdelivr.net/npm/reveal.js@5.1.0
+:icons: font
+:imagesdir: images
+:experimental:
+
+**{revdate}**
+
+== TODO

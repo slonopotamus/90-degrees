@@ -1,0 +1,17 @@
+= 90 degrees
+
+Sources for tech talk @ SportSpired Games on why all meshes are oriented towards +Y axis in Unreal Engine
+
+* link:https://slonopotamus.github.io/90-degrees/presentation.html[Interactive HTML]
+
+* link:https://slonopotamus.github.io/90-degrees/presentation.html?print-pdf[Printable]
+
+== Building
+
+[source,bash]
+----
+bundle install --path vendor/bundle
+bundle exec rake
+----
+
+And then, open `build/presentation.html`
