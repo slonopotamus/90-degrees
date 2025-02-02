@@ -8,7 +8,99 @@ v1.0, 2025-01-31
 :icons: font
 :imagesdir: images
 :experimental:
+:customcss: presentation.css
 
 **{revdate}**
 
-== TODO
+[background-color="white"]
+== 2D
+
+[.stretch]
+image::x-y-axes.svg[]
+
+== 2D inverted
+
+[.stretch]
+image::paper-axis-inverted.jpg[]
+
+== Экран компьютера
+
+[.stretch]
+image::dx-vs-opengl.png[]
+
+== 2D side
+
+[.stretch]
+image::mario.jpg[]
+
+== 2D top
+
+[.stretch]
+image::civ.jpg[]
+
+[.columns]
+== Y-up
+
+[.column]
+image::mario.jpg[]
+
+[.column]
+image::mario-3d.jpg[]
+
+[.columns]
+== Z-up
+
+[.column]
+image::civ.jpg[]
+
+[.column]
+image::civ-3d.jpg[]
+
+== RH/LH
+
+[.stretch]
+image::rh-lh.png[]
+
+== !
+
+[.stretch]
+image::3d-apps-coordinates.png[]
+
+== Maya
+
+[.stretch]
+image::maya.jpg[]
+
+[%step]
+Forward = Y- 💩
+
+[.columns]
+== !
+
+[.column]
+====
+Unreal
+
+[.red]
+Forward (X+)
+
+[.green]
+Right (Y+)
+
+[.blue]
+Up (Z+)
+====
+
+[.column]
+====
+Maya
+
+[.red]
+Forward (Y-)
+
+[.green]
+Right (X+)
+
+[.blue]
+Up (Z+)
+====

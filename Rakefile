@@ -10,4 +10,5 @@ task :default do
                            to_dir: 'build',
                            mkdirs: true)
   FileUtils.cp_r('images', 'build') if File.exist?('images')
+  FileUtils.cp_r('presentation.css', 'build') if File.exist?('presentation.css')
 end
