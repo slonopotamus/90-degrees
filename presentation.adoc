@@ -54,7 +54,7 @@ image::mario-3d.jpg[]
 image::civ.jpg[]
 
 [.column]
-image::civ-3d.jpg[]
+image::civ-3d.png[]
 
 == RH/LH
 
@@ -69,10 +69,29 @@ image::3d-apps-coordinates.png[]
 == Maya
 
 [.stretch]
-image::maya.jpg[]
+image::maya.png[]
 
 [%step]
 Forward = Y- 💩
+
+== Unreal
+
+[.stretch]
+image::unreal.png[]
+
+[.columns]
+== Maya vs Unreal
+
+[.column,.stretch]
+image::maya.png[]
+
+[.column,.stretch]
+--
+image::unreal.png[]
+
+[%step]
+Forward = ???
+--
 
 [.columns]
 == !
