@@ -1,6 +1,6 @@
 = 90 градусов
 Марат Радченко <https://github.com/slonopotamus[@slonopotamus]>
-v1.0, 2025-01-31
+v1.0, 2025-03-17
 :source-highlighter: highlightjs
 :revealjs_hash: true
 :revealjs_theme: league
@@ -72,7 +72,7 @@ image::3d-apps-coordinates.png[]
 image::maya.png[]
 
 [%step]
-Forward = Y- 💩
+Forward = Y-
 
 == Unreal
 
@@ -83,43 +83,34 @@ image::unreal.png[]
 == Maya vs Unreal
 
 [.column,.stretch]
+--
 image::maya.png[]
+
+[.blue]
+Forward (Y-)
+--
 
 [.column,.stretch]
 --
 image::unreal.png[]
 
 [%step]
-Forward = ???
+[.red]
+Forward (X+) ???
+
+[%step]
+[.green]
+Forward (Y+)
 --
 
-[.columns]
-== !
+== Как не надо
 
-[.column]
-====
-Unreal
+* Вручную вращать модель при экспорте
+* Выбирать систему координат при экспорте
 
-[.red]
-Forward (X+)
+== Как надо
 
-[.green]
-Right (Y+)
+* Не XYZ, а Forward/Right/Up
+* Автоматически поворачивать
 
-[.blue]
-Up (Z+)
-====
-
-[.column]
-====
-Maya
-
-[.red]
-Forward (Y-)
-
-[.green]
-Right (X+)
-
-[.blue]
-Up (Z+)
-====
+== Q & A
