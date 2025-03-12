@@ -413,7 +413,7 @@ ul.byline {
 ul.byline li + li {
   margin-top: 0.25em;
 }
-</style><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/v4-shims.min.css"><link rel="stylesheet" href="presentation.css"></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>90 градусов</h1><div class="preamble"><div class="paragraph"><p><strong>2025-01-31</strong></p></div></div><p class="byline">
+</style><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/v4-shims.min.css"><link rel="stylesheet" href="presentation.css"></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>90 градусов</h1><div class="preamble"><div class="paragraph"><p><strong>2025-03-17</strong></p></div></div><p class="byline">
   <span class="author">Марат Радченко <a href="https://github.com/slonopotamus">@slonopotamus</a></span>
   </p></section>
 <section id="_2d" data-background-color="white"><h2>2D</h2><div class="slide-content"><div class="imageblock stretch"><img src="images/x-y-axes.svg" alt="x y axes" height="100%"></div></div></section>
@@ -428,19 +428,16 @@ ul.byline li + li {
 <section id="_правая_и_левая_рука"><h2>Правая и левая рука</h2><div class="slide-content"><div class="imageblock stretch"><img src="images/rh-lh.png" alt="rh lh" height="100%"></div></div></section>
 <section><div class="slide-content"><div class="imageblock stretch"><img src="images/3d-apps-coordinates.png" alt="3d apps coordinates" height="100%"></div></div></section>
 <section id="_maya"><h2>Maya</h2><div class="slide-content"><div class="imageblock stretch"><img src="images/maya.png" alt="maya" height="100%"></div>
-<div class="paragraph fragment"><p>Forward = Y- 💩</p></div></div></section>
+<div class="paragraph fragment"><p>Forward = Y-</p></div></div></section>
 <section id="_unreal"><h2>Unreal</h2><div class="slide-content"><div class="imageblock stretch"><img src="images/unreal.png" alt="unreal" height="100%"></div></div></section>
-<section id="_maya_vs_unreal" class="columns"><h2>Maya vs Unreal</h2><div class="slide-content"><div class="imageblock column"><img src="images/maya.png" alt="maya"></div>
+<section id="_maya_vs_unreal" class="columns"><h2>Maya vs Unreal</h2><div class="slide-content"><div class="openblock column"><div class="content"><div class="imageblock"><img src="images/maya.png" alt="maya"></div>
+<div class="paragraph blue"><p>Forward (Y-)</p></div></div></div>
 <div class="openblock column"><div class="content"><div class="imageblock"><img src="images/unreal.png" alt="unreal"></div>
-<div class="paragraph fragment"><p>Forward = ???</p></div></div></div></div></section>
-<section class="columns"><div class="slide-content"><div class="exampleblock column"><div class="content"><div class="paragraph"><p>Unreal</p></div>
-<div class="paragraph red"><p>Forward (X+)</p></div>
-<div class="paragraph green"><p>Right (Y+)</p></div>
-<div class="paragraph blue"><p>Up (Z+)</p></div></div></div>
-<div class="exampleblock column"><div class="content"><div class="paragraph"><p>Maya</p></div>
-<div class="paragraph red"><p>Forward (Y-)</p></div>
-<div class="paragraph green"><p>Right (X+)</p></div>
-<div class="paragraph blue"><p>Up (Z+)</p></div></div></div></div></section></div></div><script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
+<div class="paragraph red fragment"><p>Forward (X+) ???</p></div>
+<div class="paragraph green fragment"><p>Forward (Y+)</p></div></div></div></div></section>
+<section id="_как_не_надо"><h2>Как не надо</h2><div class="slide-content"><div class="ulist"><ul><li><p>Вручную вращать модель при экспорте</p></li><li><p>Выбирать систему координат при экспорте</p></li></ul></div></div></section>
+<section id="_как_надо"><h2>Как надо</h2><div class="slide-content"><div class="ulist"><ul><li><p>Не XYZ, а Forward/Right/Up</p></li><li><p>Автоматически поворачивать</p></li></ul></div></div></section>
+<section id="_q_a"><h2>Q &amp; A</h2></section></div></div><script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
   if (slide.getAttribute('data-background-color')) return;
   // user needs to explicitly say he wants CSS color to override otherwise we might break custom css or theme (#226)
   if (!(slide.classList.contains('canvas') || slide.classList.contains('background'))) return;
