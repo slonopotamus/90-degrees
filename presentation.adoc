@@ -56,7 +56,7 @@ image::civ.jpg[]
 [.column]
 image::civ-3d.png[]
 
-== RH/LH
+== Правая и левая рука
 
 [.stretch]
 image::rh-lh.png[]
